@@ -1,0 +1,52 @@
+name: Android Legacy Parity
+
+on:
+  workflow_dispatch:
+
+jobs:
+  parity:
+    runs-on: [self-hosted, android-device]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Root Dependencies
+        run: npm ci
+
+      - name: Install HostAppLegacy Dependencies
+        run: npm ci --prefix example/HostAppLegacy
+
+      - name: Run Android Legacy Parity
+        env:
+          ANDROID_SERIAL: ${{ vars.ANDROID_SERIAL }}
+        run: npm run android:legacy:parity
+
+      - name: Capture Parity Logs
+        if: always()
+        env:
+          ANDROID_SERIAL: ${{ vars.ANDROID_SERIAL }}
+        run: |
+          SERIAL_ARGS=""
+          if [ -n "${ANDROID_SERIAL}" ]; then
+            SERIAL_ARGS="-s ${ANDROID_SERIAL}"
+          fi
+          adb ${SERIAL_ARGS} logcat -d -s ReactNativeJS:I '*:S' > /tmp/pretext-parity-logcat.txt || true
+
+      - name: Upload Parity Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-legacy-parity-artifacts
+          path: |
+            /tmp/pretext-pack.log
+            /tmp/pretext-install.log
+            /tmp/pretext-run.log
+            /tmp/pretext-parity-logcat.txt
+          if-no-files-found: warn

@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Keep shell scripts executable in clones where supported
+*.sh text eol=lf
+
+# Markdown and YAML are text docs/config
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

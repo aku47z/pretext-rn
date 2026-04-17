@@ -1,0 +1,22 @@
+# Exclude local and build artifacts from npm package
+.DS_Store
+node_modules/
+example/
+scripts/
+tests/
+docs/
+.github/
+.vscode/
+
+# Android build artifacts
+android/.cxx/
+android/build/
+android/.gradle/
+android/local.properties
+
+# iOS build artifacts
+ios/build/
+
+# Misc generated artifacts
+*.tgz
+*.log

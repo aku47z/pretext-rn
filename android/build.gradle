@@ -1,0 +1,35 @@
+apply plugin: "com.android.library"
+
+def reactNativeDir = file("${rootDir}/../node_modules/react-native")
+
+android {
+  namespace "com.pretextrn"
+  compileSdkVersion 34
+
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 34
+    externalNativeBuild {
+      cmake {
+        cppFlags "-std=c++17"
+        arguments "-DREACT_NATIVE_DIR=${reactNativeDir.absolutePath}"
+      }
+    }
+  }
+
+  externalNativeBuild {
+    cmake {
+      path "src/main/jni/CMakeLists.txt"
+    }
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+    }
+  }
+}
+
+dependencies {
+  implementation "com.facebook.react:react-android"
+}

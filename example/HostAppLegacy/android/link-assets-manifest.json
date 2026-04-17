@@ -1,0 +1,649 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "../../assets/fonts/Charmonman/Charmonman-Bold.ttf",
+      "sha1": "f2a1f6345371ac8bcb945cf20676eb6d265a0c4c"
+    },
+    {
+      "path": "../../assets/fonts/Charmonman/Charmonman-Regular.ttf",
+      "sha1": "6d6d69d860c1a2da9d6afb97fdd357a3d933c0a5"
+    },
+    {
+      "path": "../../assets/fonts/Charmonman/OFL.txt",
+      "sha1": "32e1635b9248f160040ae81421f8c6f736b32e2c"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-Black.ttf",
+      "sha1": "4dbdd9baf9a7049838cc0e472e0136c4f310cc78"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-BlackItalic.ttf",
+      "sha1": "1d5eae80ec55b454fad2bc00e3190e006ebbdb9f"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-Bold.ttf",
+      "sha1": "001ec1ea9a5f752d3248769c174b6fc030ab7dab"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-BoldItalic.ttf",
+      "sha1": "070da88186139923731769aa07d7eaf6d5dc32ee"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-ExtraBold.ttf",
+      "sha1": "d01b4a9a01dfdb6d9a5c6ec153d528d70706d885"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-ExtraBoldItalic.ttf",
+      "sha1": "a447ce4b78aca02c2183a6a765f5e199bf205660"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-ExtraLight.ttf",
+      "sha1": "42e4cb6caa0b9fb529bf640645a9bc29284d79b2"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-ExtraLightItalic.ttf",
+      "sha1": "61072f48214e0f0959dc5356a39559e6ab4f3a64"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-Italic.ttf",
+      "sha1": "ec36f0b6431e16cae9c11f93832eae6dbad40b4a"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-Light.ttf",
+      "sha1": "6b041e6fc61656b930d8ef638a0b9d6a0ac8e084"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-LightItalic.ttf",
+      "sha1": "c896e4309f43e88093e058a6b822692d43120a18"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-Medium.ttf",
+      "sha1": "e2d21cdc9730ce4d4bdccb3476413a5b79fe7d52"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-MediumItalic.ttf",
+      "sha1": "be7237b6cdcd5738007a1fb702309e23bdfd7125"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-Regular.ttf",
+      "sha1": "bd1976c1f019853ab6143ef1246e25aa66fd990e"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-SemiBold.ttf",
+      "sha1": "f3e44abd6661d5b861e66db22f4f79a6c466cd00"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-SemiBoldItalic.ttf",
+      "sha1": "6b5eb26c850c647aaab42e7e299e23108416ca32"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-Thin.ttf",
+      "sha1": "4f2b3c3c97e618166627b4d3fff9322fa5198e81"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_18pt-ThinItalic.ttf",
+      "sha1": "2215c5b4224e0f646b85bbc0a684c9844d8c8c82"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-Black.ttf",
+      "sha1": "ca441c37e574ec6e166df990fa2c34d7a2b073a4"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-BlackItalic.ttf",
+      "sha1": "ad079d46a5a55df26ee940f99a36ab25ef1db142"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-Bold.ttf",
+      "sha1": "a3fca01f38566345ad860db12b7359c58059b0ab"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-BoldItalic.ttf",
+      "sha1": "4f16231861f7b04b3057b010f8803977dd1c9ab7"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-ExtraBold.ttf",
+      "sha1": "e4d712ef0e61b3104b2327fe127d95d281a49308"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-ExtraBoldItalic.ttf",
+      "sha1": "41b6f1d5368f6a83f989afcb577383a618fc265a"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-ExtraLight.ttf",
+      "sha1": "de38e36cf083996e3e44a2792055f33f04beb7db"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-ExtraLightItalic.ttf",
+      "sha1": "0622010203ab2c8fa269b2c74a2df3a7caed764d"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-Italic.ttf",
+      "sha1": "eb4fb205a438f0e3eb85039a40cd2cf23c774523"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-Light.ttf",
+      "sha1": "ca9d1cbe741fb0ad6f9e469f2b390a79629d10ad"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-LightItalic.ttf",
+      "sha1": "b518d07be9c30b43271c988ff33a1007cb4d8b60"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-Medium.ttf",
+      "sha1": "3b9f3360ca812f2076db0bfc8bed4cfdd951e74f"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-MediumItalic.ttf",
+      "sha1": "9abd0598214072e5d5bef89a5e10222be5dda536"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-Regular.ttf",
+      "sha1": "b9984093c0b2b612da5e58e4d4e1ba8c255353dc"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-SemiBold.ttf",
+      "sha1": "ee81756dc9685877077aae9027708aa84bc56027"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-SemiBoldItalic.ttf",
+      "sha1": "f317395eca6c7b5c6c4e5fcf7f74c277215ae719"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-Thin.ttf",
+      "sha1": "c63bb2618f2f823b077100c23ca5cd4e64fe99a3"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_24pt-ThinItalic.ttf",
+      "sha1": "28006c2c7c56d61aeadf9f8f693112c5bdcdd041"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-Black.ttf",
+      "sha1": "1a88281108c184915828226c768844e63e09b3f9"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-BlackItalic.ttf",
+      "sha1": "639632354ab48d6b6f9f0c5603e125bd5f75ee0a"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-Bold.ttf",
+      "sha1": "38827ef0e3ed2ffe35747e4debd073cd923d3353"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-BoldItalic.ttf",
+      "sha1": "d2ee8bf84332d23253f15a5f4d076037687b159c"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-ExtraBold.ttf",
+      "sha1": "0f4e77952476d538c57dc3cff12926581f82c3a8"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-ExtraBoldItalic.ttf",
+      "sha1": "08b1caa442bb18acd2168ec206bca6932c18565d"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-ExtraLight.ttf",
+      "sha1": "80da6a4be8894c6481dc4465b884c4c161b4d3a8"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-ExtraLightItalic.ttf",
+      "sha1": "43e187b77fe222b0d43c037fe450317a3e0dc543"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-Italic.ttf",
+      "sha1": "a431bf3e3b06d12ad9e2a1e0c9ff2056b272a61f"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-Light.ttf",
+      "sha1": "a67e1cb8acb26c3b95fa9c2c49f6d43141c491bb"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-LightItalic.ttf",
+      "sha1": "93d97af9b7f26b8a4f1d085f48cd92ed4606b087"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-Medium.ttf",
+      "sha1": "d135ba8c8d7b74a8878a4a73794ddfa739fa7348"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-MediumItalic.ttf",
+      "sha1": "16a84cb180cbe4b50b31c88a4a8ded8112e28df1"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-Regular.ttf",
+      "sha1": "6177ac91c6fb7df9b09beda7802ea15699a88703"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-SemiBold.ttf",
+      "sha1": "49c4ab71faa7118520a21452906e04f1340c864c"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-SemiBoldItalic.ttf",
+      "sha1": "f7fee5e04197edf59736530b4db51a01b7645a1a"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-Thin.ttf",
+      "sha1": "dfe9285979c848f94da3d3f7c7e4d13a5680143c"
+    },
+    {
+      "path": "../../assets/fonts/Inter/static/Inter_28pt-ThinItalic.ttf",
+      "sha1": "beed0d0fb7783d5da5d366036b5e481f895e1970"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Bold.ttf",
+      "sha1": "8a0806a42bb8c44290735c17fbb439b8d8c08ec5"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-BoldItalic.ttf",
+      "sha1": "7b9092d8adfb9cfb7c26acd02a9ec4a6158a4546"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-ExtraBold.ttf",
+      "sha1": "c414a0e9e1f3ad17e236bd60cc89badec7be29c4"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf",
+      "sha1": "c32625140127a45ccc72967caf4b19a4a0a16465"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-ExtraLight.ttf",
+      "sha1": "afb2c31cb893c82812f25051146f6b0a346cc0b9"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-ExtraLightItalic.ttf",
+      "sha1": "9177f4139b4fc724f61aedf7a51ec453ba2d5561"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Italic.ttf",
+      "sha1": "936cdfc58bebc8b39e9aeaad3f2c92e9efc8aec4"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Light.ttf",
+      "sha1": "f2cb906a2416e6981bdf29932661b0e92600c8d4"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-LightItalic.ttf",
+      "sha1": "1050744c8c573c37bd52788376eba0887ddf86c7"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Medium.ttf",
+      "sha1": "5bf8fa15598c049508345993d774fae5e0722d42"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-MediumItalic.ttf",
+      "sha1": "00256d354e7f30fb3c0e14b468a6625990050a95"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf",
+      "sha1": "50fc729787e6133b511444b185c7397bd3ccd3da"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-SemiBold.ttf",
+      "sha1": "3660d46e706af24cf531ae2098c8bb4c14dc4847"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-SemiBoldItalic.ttf",
+      "sha1": "87b2d362610011997b1dfa0d36c82e511f44493c"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Thin.ttf",
+      "sha1": "c11218d659dba5975eb681ffd17f4ed1ae784f63"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-ThinItalic.ttf",
+      "sha1": "5429f1fa539bfaf0e3e79586bed5b9864593a236"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-Bold.ttf",
+      "sha1": "1eed4197ff14f618aaf961e28420cb3ff18923ab"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-BoldItalic.ttf",
+      "sha1": "e58decd85d6604abedb9911610f6253257303e5b"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-ExtraBold.ttf",
+      "sha1": "86cd72cc8821936c072e26a659ed14faea5721c3"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-ExtraBoldItalic.ttf",
+      "sha1": "2ab7b142c96f5e3e22b6613d42ce3848b7750466"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-ExtraLight.ttf",
+      "sha1": "a80c96cf86d9f94fc7119c27b620cdb990887d93"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-ExtraLightItalic.ttf",
+      "sha1": "c4bc84f9225d3d81b5efb0f637e14407c277ae46"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-Italic.ttf",
+      "sha1": "3e203443771e6ec832f8bedba91a67c7da68ac89"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-Light.ttf",
+      "sha1": "56da1833eb772f293df05b63594835c78b66aa0b"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-LightItalic.ttf",
+      "sha1": "4bca444223545747b1fa28d7065ccd125712d475"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-Medium.ttf",
+      "sha1": "49541c0eab4cf98823b6a94ce114516c0077373c"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-MediumItalic.ttf",
+      "sha1": "326ed1d22493edb3906dfbd0456dc4816fe396dd"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-Regular.ttf",
+      "sha1": "8e57aca286df20304849c885af85c75a4b031ee2"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-SemiBold.ttf",
+      "sha1": "3070f346080f3be4ba790b2b267bfe1f23212550"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-SemiBoldItalic.ttf",
+      "sha1": "c225e2355d08a9f9b72d07eb414635b4db9b39fb"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-Thin.ttf",
+      "sha1": "26d54ccaa0a9ca5f7c22381df034d1c033fc3723"
+    },
+    {
+      "path": "../../assets/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMonoNL-ThinItalic.ttf",
+      "sha1": "a04dacbcff34bc2aa0c9be8da221da63b2fcd325"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-Black.ttf",
+      "sha1": "b91387c74dc5a1d95bc2d18cfa69e5decf2d23a3"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-BlackItalic.ttf",
+      "sha1": "fa3de625a25404c9b889003d044155e20a20ef08"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-Bold.ttf",
+      "sha1": "8b28e272ae5845695763b576405bb2e6711e2706"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-BoldItalic.ttf",
+      "sha1": "4d46ae9aedb58ba3ae1ba4dcd7a1ccd856a1ee30"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-ExtraBold.ttf",
+      "sha1": "2f11b1f18e558e37740741288c78d05550d064e8"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-ExtraBoldItalic.ttf",
+      "sha1": "b5f3c20fe55a17f6903b571eec95173d8fa97a24"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-ExtraLight.ttf",
+      "sha1": "5a7faa676dfb45d979dc25ad822c5744c79b1f90"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-ExtraLightItalic.ttf",
+      "sha1": "d7b4100eff6764d392ef06d4056cf5efaf0db38a"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-Italic.ttf",
+      "sha1": "88389ccd876f3ea233511ad0640d4f4cda3a6b8b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-Light.ttf",
+      "sha1": "f23f9b5450c6261b4f742445262122391b9baa1d"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-LightItalic.ttf",
+      "sha1": "8555a6e202b2b9e68700b8c0db4ce0542b83dca4"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-Medium.ttf",
+      "sha1": "d178eb55c4ecb4a7b3f11253dea49b9419f4892a"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-MediumItalic.ttf",
+      "sha1": "848ac6e37efedae2f262ee87efbf24372c8da897"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-Regular.ttf",
+      "sha1": "d1d52feb5f1202c48e25f1dfffa99dcfec6d2998"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-SemiBold.ttf",
+      "sha1": "54a3454d7830bfebce91cccc0e2319b9313c4388"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-SemiBoldItalic.ttf",
+      "sha1": "79846a992313594271566d38fdc5c1800287a3a8"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-Thin.ttf",
+      "sha1": "76c4d8fde22f06fecaf45498e2d755916a11be0a"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_Condensed-ThinItalic.ttf",
+      "sha1": "e561bb02c2a7b1c4600124dd940001b02996938b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Black.ttf",
+      "sha1": "0284bc05aae2cfa186a240909a59f2e9e8cdac4f"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-BlackItalic.ttf",
+      "sha1": "33c234036bb0e3f1317953c7db6f722d5f57b4c0"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Bold.ttf",
+      "sha1": "96e5123fd30066686802d45ddc5e8cdee3ab5e42"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-BoldItalic.ttf",
+      "sha1": "e6a0313fda5744ae050383bc44248fd3ab46d264"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ExtraBold.ttf",
+      "sha1": "c66b12521235d0d5478729a3d586b19c8a8e8524"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ExtraBoldItalic.ttf",
+      "sha1": "4c86fd15af6932d27025f24283cff81ba6d6e49b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ExtraLight.ttf",
+      "sha1": "0759522347ca4538128e8f6c4de99fc41cc9d143"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ExtraLightItalic.ttf",
+      "sha1": "50fda550e8881bd8fc8959e43dd500f8877f14e9"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Italic.ttf",
+      "sha1": "bbe8cb6fde70307ed5a9e982055c0cf212b641d5"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Light.ttf",
+      "sha1": "0ab3d5bf1f40fd5c81496197776e5130f318788e"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-LightItalic.ttf",
+      "sha1": "b79ebc4e003a1c669484ac090f9674382dfcae84"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Medium.ttf",
+      "sha1": "38492e09da9ff7199f91b868cb7951129661851e"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-MediumItalic.ttf",
+      "sha1": "26a3cae3beec54db9ae7c3f1bf3f511de4c6015a"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Regular.ttf",
+      "sha1": "c495337496dcb9aa07db410c634211ab869a633b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-SemiBold.ttf",
+      "sha1": "4c970526281b0d7ee9e687d5da0d8db0c5cac237"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-SemiBoldItalic.ttf",
+      "sha1": "e67f02d2ce2eac4cf71f6a6ab35b5eac1f679d4a"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-Thin.ttf",
+      "sha1": "25e833deb4dcedf7ee7003eb22be9e748353060b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_ExtraCondensed-ThinItalic.ttf",
+      "sha1": "50a7f35e6987154de774dc78d8b04ff910bacca0"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Black.ttf",
+      "sha1": "1e53ebae2b48282294451ab549fd959757b3d2f0"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-BlackItalic.ttf",
+      "sha1": "b7b4d05fa151c3e282cad06102402d3b15dbcafb"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Bold.ttf",
+      "sha1": "884329d9396bc2e59b0632cbdf00bb51d08d7e23"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-BoldItalic.ttf",
+      "sha1": "a5194ab876475f92ca0c912646fce877ce579660"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraBold.ttf",
+      "sha1": "e84cfd832ded554b49e157e6df4a5face05b2955"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraBoldItalic.ttf",
+      "sha1": "3d9ed12ea1f720e21c9c85c98c9ee97374f63107"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraLight.ttf",
+      "sha1": "041fb4915886b42b7e2c5374c98dff9b20bcd08a"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ExtraLightItalic.ttf",
+      "sha1": "fbeb1dc11b582a631116c66583b4289c8509b22e"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Italic.ttf",
+      "sha1": "0ffa0506db8dc1c4e9d076457bf6883bc05ed09d"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Light.ttf",
+      "sha1": "1212b5db3cb11d1a169e0b564c76eaadd5e9350e"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-LightItalic.ttf",
+      "sha1": "f1d74e013fa74b93b31bec6dd019e3aea233d27a"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Medium.ttf",
+      "sha1": "42010eb757da11f679331621fd296fb875b3b150"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-MediumItalic.ttf",
+      "sha1": "fc1a4172d54f96471ced0060e6381f43d019fd85"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Regular.ttf",
+      "sha1": "2d6dc4cf8c97a91f8cff80707df8bfbff9b7e1f5"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-SemiBold.ttf",
+      "sha1": "6571a3311fab17c76a5ecfbaf990b44ea414c904"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-SemiBoldItalic.ttf",
+      "sha1": "b8ab708a1e73fa8b1c5008d303e4ab7df0a55f34"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-Thin.ttf",
+      "sha1": "d042a92cf612b6b5a648c3bee88b2fba75f0fd6e"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans_SemiCondensed-ThinItalic.ttf",
+      "sha1": "d40fda462da645adf0e4a241b37e861ac3363f6b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-Black.ttf",
+      "sha1": "cff09f171df2fc77cec75ca8beb505c38637be4e"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-BlackItalic.ttf",
+      "sha1": "000da8a9288a9ead66bab5eb6b6b05b09d29e497"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-Bold.ttf",
+      "sha1": "bc7f5e39185c4912c013624fcf123fe213b14890"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-BoldItalic.ttf",
+      "sha1": "695e28bf6f4dcb553489ba8900bf4ebd1519513b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-ExtraBold.ttf",
+      "sha1": "cac84afc4bfa87e439a325091d47a6184512d5f5"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-ExtraBoldItalic.ttf",
+      "sha1": "c435f928fc2681f588d1a38b2f9655a9f3c94841"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-ExtraLight.ttf",
+      "sha1": "6232e4bc80dffdb618a578e5a89a763c4b8a442d"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-ExtraLightItalic.ttf",
+      "sha1": "90f99facd1fbb87235c2429b10f84c7a49a834fd"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-Italic.ttf",
+      "sha1": "716d03e49a77df00cd0b6af541a90410369e9d7d"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-Light.ttf",
+      "sha1": "c4b48902c346932b6f8c592ac92fea1d01f0b23a"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-LightItalic.ttf",
+      "sha1": "c1e15c5657f7d3a00e837bee1b835500aa3cf5f8"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf",
+      "sha1": "3d178662eb4bd87b4ad7bcea41e19771bc1685d7"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-MediumItalic.ttf",
+      "sha1": "d6563098a2f94aaa7bd60db9f059dcd1ae76a06e"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf",
+      "sha1": "f04a504e2078d6c01b3bf453c0d18c4f77c2133b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-SemiBold.ttf",
+      "sha1": "ab4e235f3ca95a23a141d9da371142939ba3c848"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-SemiBoldItalic.ttf",
+      "sha1": "9c2070c8a999780780bf6f696bdefe761954b4d8"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-Thin.ttf",
+      "sha1": "ce3d640fa3969d374838791a596daacdf07f559b"
+    },
+    {
+      "path": "../../assets/fonts/Noto_Sans/static/NotoSans-ThinItalic.ttf",
+      "sha1": "588a45111861b4eb069792def47b20ea23b625c8"
+    }
+  ]
+}
