@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  unit-tests:
+    name: Unit Tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+          - macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run unit tests
+        run: npm test
+
+      - name: Run typecheck
+        run: npm run typecheck
+
+  package-dry-run:
+    name: Package Dry Run Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate npm pack output
+        run: |
+          npm pack --dry-run --json > /tmp/pretext-pack.json
+          node <<'NODE'
+          const fs = require('fs');
+          const raw = fs.readFileSync('/tmp/pretext-pack.json', 'utf8');
+          const parsed = JSON.parse(raw);
+          const files = (parsed[0]?.files ?? []).map((entry) => entry.path);
+
+          const forbidden = [
+            /^example\//,
+            /^scripts\//,
+            /^tests\//,
+            /^docs\//,
+            /^android\/build\//,
+            /^android\/\.cxx\//,
+            /^ios\/build\//,
+            /^node_modules\//,
+          ];
+
+          const bad = files.filter((path) => forbidden.some((rule) => rule.test(path)));
+          if (bad.length > 0) {
+            console.error('Unexpected files in npm package:');
+            for (const entry of bad) {
+              console.error(` - ${entry}`);
+            }
+            process.exit(1);
+          }
+
+          console.log(`Pack audit passed with ${files.length} files.`);
+          NODE
