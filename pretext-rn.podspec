@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.summary      = "Synchronous text measurement for React Native using JSI"
   s.license      = { :type => "MIT" }
   s.authors      = { "pretext-rn" => "" }
-  s.homepage     = "https://example.com/pretext-rn"
+  s.homepage     = "https://github.com/aku47z/pretext-rn"
   s.platforms    = { :ios => "13.0" }
-  s.source       = { :git => "https://example.com/pretext-rn.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/aku47z/pretext-rn.git", :tag => s.version }
 
   s.source_files = "ios/**/*.{h,m,mm}", "cpp/**/*.{h,cpp}"
   s.compiler_flags = "-std=c++17"

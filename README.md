@@ -117,6 +117,7 @@ console.log(height);
 
 - Height measurement only (no width/baseline API yet).
 - New Architecture path is not yet production-ready for native measurement.
+- iOS parity is currently verified on simulator runs; physical-device iOS parity results are not yet established in this release documentation.
 - No Web implementation.
 - No support for inline image measurement in text runs.
 - `prepare` / `layout` exports are placeholders and currently throw.

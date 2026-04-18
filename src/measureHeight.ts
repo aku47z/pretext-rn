@@ -28,6 +28,53 @@ const DEFAULT_CONFIG: RuntimeConfig = {
 };
 
 let currentConfig: RuntimeConfig = { ...DEFAULT_CONFIG };
+let didWarnNewArchApproximateFallback = false;
+
+function isLikelyNewArchitectureRuntime(): boolean {
+  const runtimeGlobal = globalThis as typeof globalThis & {
+    __turboModuleProxy?: unknown;
+    nativeFabricUIManager?: unknown;
+  };
+
+  if (typeof runtimeGlobal.__turboModuleProxy === "function") {
+    return true;
+  }
+
+  if (runtimeGlobal.nativeFabricUIManager != null) {
+    return true;
+  }
+
+  try {
+    const reactNative = require("react-native") as {
+      PlatformConstants?: {
+        getConstants?: () => {
+          isNewArchEnabled?: boolean;
+        };
+      };
+    };
+
+    return (
+      reactNative.PlatformConstants?.getConstants?.().isNewArchEnabled === true
+    );
+  } catch {
+    return false;
+  }
+}
+
+function maybeWarnNewArchApproximateFallback(strategy: string): void {
+  if (didWarnNewArchApproximateFallback || strategy !== "approximate") {
+    return;
+  }
+
+  if (!isLikelyNewArchitectureRuntime()) {
+    return;
+  }
+
+  didWarnNewArchApproximateFallback = true;
+  console.warn(
+    "[pretext-rn] New Architecture runtime detected but native JSI measurement is unavailable. Falling back to approximate JS measurement.",
+  );
+}
 
 function normalizeInput(
   text: string,
@@ -60,9 +107,13 @@ function roundHeight(height: number): number {
     return height;
   }
 
+  const runtimeGlobal = globalThis as typeof globalThis & {
+    devicePixelRatio?: number;
+  };
+
   let ratio =
-    typeof globalThis.devicePixelRatio === "number"
-      ? globalThis.devicePixelRatio
+    typeof runtimeGlobal.devicePixelRatio === "number"
+      ? runtimeGlobal.devicePixelRatio
       : NaN;
 
   if (!Number.isFinite(ratio) || ratio <= 0) {
@@ -139,6 +190,7 @@ export function measureHeightInput(input: MeasureInput): number {
   const cacheKey = makeCacheKey(normalized, fontScale);
 
   const { measure, strategy } = resolveSynchronousMeasureFunction();
+  maybeWarnNewArchApproximateFallback(strategy);
   const shouldCache = strategy !== "approximate";
 
   if (currentConfig.diagnostic) {
