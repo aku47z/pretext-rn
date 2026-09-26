@@ -1,3 +1,9 @@
+> [!NOTE]  
+> **Status: Archived / Unmaintained**  
+>I’ve decided to drop this project. It was initially built on a whim to help me learn JSI and native modules. I heavily relied on AI to build it up to a somewhat working stage. Since then, other developers with deeper expertise have started exploring and built more promising implementations of this very idea.
+> 
+>I’m leaving the repository public for archival and portfolio purposes. Feel free to fork it if you want to take it further.
+
 # pretext-rn
 
 Synchronous text height measurement for React Native via JSI. Inspired by Cheng Lou's pretext.
